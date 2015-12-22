@@ -128,5 +128,104 @@ public class StudentGradingSystem extends JFrame implements ActionListener {
 		
 		
 	}
+	
+	@Override
+	public void actionPerformed(ActionEvent x) {
+		// TODO Auto-generated method stub
+		
+		String name=(tfName.getText());
+		String reg=(tfRegNo.getText());
+		
+		int eng=0;
+		if(tfEng.getText().length()>0){
+			eng=	Integer.parseInt(tfEng.getText());	
+		}
+		
+		int math=0;
+		
+		if(tfMaths.getText().length()>0){
+			math=	Integer.parseInt(tfMaths.getText());	
+		}
+		
+        int phy=0;
+		
+		if(tfPhy.getText().length()>0){
+			phy=	Integer.parseInt(tfPhy.getText());	
+		}
+		
+        int che=0;
+		
+		if(tfChem.getText().length()>0){
+			che=	Integer.parseInt(tfChem.getText());	
+		}
+		
+        int bot=0;
+		
+		if(tfBot.getText().length()>0){
+			bot=	Integer.parseInt(tfBot.getText());	
+		}
+		
+        int zoo=0;
+		
+		if(tfZoo.getText().length()>0){
+			zoo=	Integer.parseInt(tfZoo.getText());	
+		}
+		
+        int com=0;
+		
+		if(tfComp.getText().length()>0){
+			com=	Integer.parseInt(tfComp.getText());	
+		}
+		
+		
+		float totalScore=eng+math+phy+che+bot+zoo+com;
+		float percentage=totalScore/7;
+		
+		
+		
+		if (x.getSource() ==btTotal) {
+			tfTotal.setText(" "+Math.round(totalScore));
+		}
+		
+		else if (x.getSource()==btPer) {
+			tfPer.setText(String.format("%.2f", percentage)+ "%");
+		}
+		
+				
+		else if (x.getSource()==btRem) {
+			if (percentage<50) {
+				tfRem.setText("FAIL");
+				
+		}
+			else  if (percentage<60) {
+				tfRem.setText("FAIR");
+		}
+		
+			else  if (percentage<70) {
+				tfRem.setText("GOOD");
+			}
+			else  if (percentage<80) {
+				tfRem.setText("VERY GOOD");
+	}
+	
+			else  if (percentage<90) {
+				tfRem.setText("EXCELLENT");
+
+}
+			else  if (percentage<=100) {
+				tfRem.setText("OUT STANDING");
+			}
+			else if (x.getSource()==btExit) {
+				System.exit(0);
+			}
+			
+		}
+		
+	}
+	
+}
+
+
+
 
 	
