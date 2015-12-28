@@ -22,7 +22,7 @@ The project was created in ECLIPSE and added to GITHUB using GIT SHELL.
 
 
 # AUTHOR NAME: SHEELA GOWRY RAJU
-# E-MAIL: sheelagowry@gmail.com
+# E-MAIL: sheelagowr@gmail.com
 
 # ABOUT AUTHOR: 
 Cyber Security Engineering Student in Estonia
