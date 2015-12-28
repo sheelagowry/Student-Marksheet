@@ -1,5 +1,5 @@
 
-**PROJECT TITLE: STUDENT-MARKSHEET**
+# PROJECT TITLE: STUDENT-MARKSHEET
 
 ##########################################################################
 # ABOUT THE PROGRAM:
@@ -21,9 +21,10 @@ The project was created in ECLIPSE and added to GITHUB using GIT SHELL.
 ###########################################################################
 
 
-# AUTHOR: SHEELA GOWRY RAJU
+# AUTHOR NAME: SHEELA GOWRY RAJU
 # E-MAIL: sheelagowry@gmail.com
 
-# ABOUT AUTHOR: CYBER SECURITY ENGINEERING STUDENT IN ESTONIA
+# ABOUT AUTHOR: 
+Cyber Security Engineering Student in Estonia
 
 ############################################################################
