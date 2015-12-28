@@ -211,19 +211,7 @@ public class StudentGradingSystem extends JFrame implements ActionListener {
 			else  if (percentage<90) {
 				tfRem.setText("EXCELLENT");
 
-}
-			else  if (percentage<=100) {
-				tfRem.setText("OUT STANDING");
-			}
-			else if (x.getSource()==btExit) {
-				System.exit(0);
-			}
-			
-		}
-		
-	}
-	
-}
+
 
 
 
