@@ -128,7 +128,7 @@ public class StudentGradingSystem extends JFrame implements ActionListener {
 		
 		
 	}
-
+	
 	@Override
 	public void actionPerformed(ActionEvent x) {
 		// TODO Auto-generated method stub
@@ -210,8 +210,7 @@ public class StudentGradingSystem extends JFrame implements ActionListener {
 	
 			else  if (percentage<90) {
 				tfRem.setText("EXCELLENT");
-
-}
+			}
 			else  if (percentage<=100) {
 				tfRem.setText("OUT STANDING");
 			}
@@ -226,3 +225,8 @@ public class StudentGradingSystem extends JFrame implements ActionListener {
 }
 
 
+
+
+
+
+	
